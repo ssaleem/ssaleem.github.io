@@ -1,0 +1,74 @@
+[
+	{
+		"title": "NYC Eats",
+		"description": "Transformed an existing application with static design that lacks accessibility into a responsive, accessibility complying, offline-first web application.",
+		"codeUrl": "https://github.com/ssaleem/NYC-Eats",
+		"demoUrl": "https://ssaleem.github.io/NYC-Eats/",
+		"medImage": "./img/ne-medium.jpg",
+		"smallImage": "./img/ne-small.jpg"
+	},
+	{
+		"title": "Cat Clicker",
+		"description": "A web application implementing MVC design pattern with Vanilla JS (and of course with lots of cute cat images); cat images fetched from Unsplash API.",
+		"codeUrl": "https://github.com/ssaleem/Cat-Clicker",
+		"demoUrl": "https://ssaleem.github.io/Cat-Clicker/",
+		"medImage": "/img/cc-medium.jpg",
+		"smallImage": "./img/cc-small.jpg"
+	},
+	{
+		"title": "Memory Game",
+		"description": "A browser-based, feature-packed responsive card matching web application(also known as Concentration); built using JavaScript timer and Web Storage API.",
+		"codeUrl": "https://github.com/ssaleem/Memory-Game",
+		"demoUrl": "https://ssaleem.github.io/Memory-Game/",
+		"medImage": "./img/mg-medium.jpg",
+		"smallImage": "./img/mg-small.jpg"
+	},
+	{
+		"title": "My Reads",
+		"description": "A responsive web application with a dynamic user interface built using React.js that allows users to select and categorize books into a virtual bookshelf.",
+		"codeUrl": "https://github.com/ssaleem/My-Reads",
+		"demoUrl": "https://ssaleem.github.io/My-Reads/",
+		"medImage": "./img/mr-medium.jpg",
+		"smallImage": "./img/mr-small.jpg"
+	},
+	{
+		"title": "Frogger Game Clone",
+		"description": "An HTML5 Canvas powered variation of the classNameic Frogger arcade game, developed using the best practices in Object Oriented JavaScript.",
+		"codeUrl": "https://github.com/ssaleem/Frogger-Clone",
+		"demoUrl": "https://ssaleem.github.io/Frogger-Clone",
+		"medImage": "./img/fc-medium.jpg",
+		"smallImage": "./img/fc-small.jpg"
+	},
+	{
+		"title": "Random Quotes",
+		"description": "A responsive website displaying random quotes extracted from wikiquote.org; a tweet buttong allows the users to post their favorite quotes.",
+		"codeUrl": "https://github.com/ssaleem/Random-Quotes",
+		"demoUrl": "https://ssaleem.github.io/Random-Quotes/",
+		"medImage": "./img/rqm-medium.jpg",
+		"smallImage": "./img/rqm-small.jpg"
+	},
+	{
+		"title": "Raftaar",
+		"description": "A personalized dashboard Chrome Extension featuring to-do list, weather, and inspirational quotes; built in collaboration with a remote team.",
+		"codeUrl": "https://github.com/ssaleem/Raftaar/tree/weather",
+		"demoUrl": "",
+		"medImage": "./img/rc-medium.jpg",
+		"smallImage": "./img/rc-small.jpg"
+	},
+	{
+		"title": "Feed Reader Testing using Jasmine",
+		"description": "This project consists of test suites built using the Jasmine framework to test against an RSS Feed app.",
+		"codeUrl": "https://github.com/ssaleem/Feed-Reader-Testing-using-Jasmine",
+		"demoUrl": "",
+		"medImage": "./img/j-medium.jpg",
+		"smallImage": "./img/j-small.jpg"
+	},
+	{
+		"title": "Pixel Art Maker",
+		"description": "A web application to draw pixel art; uses jQuery for event handling.",
+		"codeUrl": "https://github.com/ssaleem/Pixel-Art-Maker",
+		"demoUrl": "https://ssaleem.github.io/Pixel-Art-Maker/",
+		"medImage": "./img/pam-medium.jpg",
+		"smallImage": "./img/pam-small.jpg"
+	}
+]
