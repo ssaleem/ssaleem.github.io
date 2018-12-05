@@ -1,0 +1,10 @@
+[
+	{
+		"title": "NYC Eats",
+		"description": "Transformed an existing application with static design that lacks accessibility into a responsive, accessibility complying, offline-first web application.",
+		"codeUrl": "https://github.com/ssaleem/NYC-Eats",
+		"demoUrl": "https://ssaleem.github.io/NYC-Eats/",
+		"medImage": "./img/ne-medium.jpg",
+		"smallImage": "./img/ne-small.jpg"
+	}
+]
