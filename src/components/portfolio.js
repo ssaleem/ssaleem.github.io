@@ -6,14 +6,14 @@ class Portfolio extends Component {
 			<div className="container">
 			{this.props.projects.map((project) => (
 				<div className="flex-project" key={project.title}>
-					<a href={project.demoUrl}>
+					<a href={project.demoUrl} target="_blank">
 						<picture>
 							<source media="(min-width: 650px)" srcSet={project.medImage}/>
 							<img className="proj-img" src={project.smallImage} alt={`${project.title} Screenshot`}/>
 						</picture>
 					</a>
 					<h2 className="proj-title">{project.title}</h2>
-					<p className="proj-links"><a href={project.demoUrl}>DEMO</a> | <a href={project.codeUrl}>CODE</a></p>
+					<p className="proj-links"><a href={project.demoUrl} target="_blank">DEMO</a> | <a href={project.codeUrl} target="_blank">CODE</a></p>
 					<p>{project.description}</p>
 				</div>
 				)

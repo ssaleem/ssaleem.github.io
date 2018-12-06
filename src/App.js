@@ -59,8 +59,8 @@ class App extends Component {
             <Portfolio projects={this.state.projects}/>
           )}/>
         <footer>
-          <a href="https://github.com/ssaleem"><FontAwesomeIcon className="social" icon={["fab", "github"]}/></a>
-          <a href="https://www.linkedin.com/in/saraasaleem/"><FontAwesomeIcon className="social" icon={["fab", "linkedin"]}/></a>
+          <a href="https://github.com/ssaleem" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "github"]}/></a>
+          <a href="https://www.linkedin.com/in/saraasaleem/" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "linkedin"]}/></a>
         </footer>
       </div>
     );

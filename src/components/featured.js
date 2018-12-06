@@ -13,8 +13,8 @@ class Featured extends Component {
 					<div className="featured-text">
 						<div className="featured-head">
 							<h2>TRENDING IN TAMPA BAY</h2>
-							<button className="featured-link"><a href="https://ssaleem.github.io/Trending-in-Tampa-Bay/">DEMO</a></button>
-							<button className="featured-link"><a href="https://github.com/ssaleem/Trending-in-Tampa-Bay">CODE</a></button>
+							<button className="featured-link"><a href="https://ssaleem.github.io/Trending-in-Tampa-Bay/" target="_blank">DEMO</a></button>
+							<button className="featured-link"><a href="https://github.com/ssaleem/Trending-in-Tampa-Bay" target="_blank">CODE</a></button>
 						</div>
 
 						<p>A single-page responsive Google Maps web application displaying top trending places at Foursquare in Tampa Bay area. The site also lists the places in a sidebar with the option to select/filter based on their type/catgeory.</p>
