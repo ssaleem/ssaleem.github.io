@@ -40,6 +40,7 @@ class App extends Component {
             </nav>
         </header>
 
+
         <Route exact path="/" render={() => (
             <About/>
 
