@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLightbulb } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faLightbulb)
 
 class Skills extends Component {
 	render() {
 		return (
 		<div>
 		<h1>SKILLS</h1>
+		<FontAwesomeIcon icon={["fas","lightbulb"]} className="section-logo"/>
 		<div className="skills-container">
 		<div className="skills-container-item">
 			<h2>Languages</h2>

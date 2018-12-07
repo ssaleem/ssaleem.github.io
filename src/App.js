@@ -33,6 +33,7 @@ class App extends Component {
       <div className="App">
       <div className="landing-page">
         <header className="app-header">
+            {/*<img href="./img/siteLogo.png" className="site-logo"/>*/}
             <h1>SARA SALEEM</h1>
             <nav>
               <NavLink className="nav-link" activeClassName="active-navlink" exact to='/'>Home</NavLink>
@@ -60,8 +61,8 @@ class App extends Component {
             <Portfolio projects={this.state.projects}/>
           )}/>
         <footer>
-          <a href="https://github.com/ssaleem" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "github"]}/></a>
-          <a href="https://www.linkedin.com/in/saraasaleem/" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "linkedin"]}/></a>
+          <a href="https://github.com/ssaleem" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "github"]}/></a>
+          <a href="https://www.linkedin.com/in/saraasaleem/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "linkedin"]}/></a>
         </footer>
       </div>
     );

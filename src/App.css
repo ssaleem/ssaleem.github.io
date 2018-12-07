@@ -21,12 +21,17 @@ body {
 
 }
 
+.site-log {
+  width: 10%;
+  height: auto;
+}
+
 h1,
 h2 {
   font-family: 'Rubik', sans-serif;
 }
 
-h1 {
+h1, .section-logo {
   font-size: calc(16px + 1.25vw);
 }
 
