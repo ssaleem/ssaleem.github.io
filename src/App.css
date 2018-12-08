@@ -21,6 +21,12 @@ body {
 
 }
 
+a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  color: #1292bb;
+}
+
 .site-log {
   width: 10%;
   height: auto;
@@ -29,6 +35,14 @@ body {
 h1,
 h2 {
   font-family: 'Rubik', sans-serif;
+}
+
+h1 a {
+  color: #58595b;
+}
+
+h1 a:hover {
+  color: #1292bb;
 }
 
 h1, .section-logo {
@@ -43,11 +57,7 @@ p {
   text-align: justify;
 }
 
-a {
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
-  color: #1292bb;
-}
+
 
 footer {
   padding-top: 1.5em;

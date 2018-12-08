@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import { NavLink } from 'react-router-dom';
 import About from './components/about';
 import Skills from './components/skills';
@@ -12,6 +13,8 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './App.css';
 
 library.add(faLinkedin, faGithub)
+ReactGA.initialize('UA-129370123-5');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
   state = {
@@ -34,7 +37,7 @@ class App extends Component {
       <div className="landing-page">
         <header className="app-header">
             {/*<img href="./img/siteLogo.png" className="site-logo"/>*/}
-            <h1>SARA SALEEM</h1>
+            <h1><a href="https://ssaleem.github.io/">SARA SALEEM</a></h1>
             <nav>
               <NavLink className="nav-link" activeClassName="active-navlink" exact to='/'>Home</NavLink>
               <NavLink className="nav-link" activeClassName="active-navlink" to='/portfolio'>Portfolio</NavLink>
