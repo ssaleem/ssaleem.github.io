@@ -5,15 +5,8 @@
 		"codeUrl": "https://github.com/ssaleem/NYC-Eats",
 		"demoUrl": "https://ssaleem.github.io/NYC-Eats/",
 		"medImage": "./img/ne-medium.jpg",
-		"smallImage": "./img/ne-small.jpg"
-	},
-	{
-		"title": "Cat Clicker",
-		"description": "A web application implementing MVC design pattern with Vanilla JS (and of course with lots of cute cat images); cat images fetched from Unsplash API.",
-		"codeUrl": "https://github.com/ssaleem/Cat-Clicker",
-		"demoUrl": "https://ssaleem.github.io/Cat-Clicker/",
-		"medImage": "/img/cc-medium.jpg",
-		"smallImage": "./img/cc-small.jpg"
+		"smallImage": "./img/ne-small.jpg",
+		"tags": ["HTML/CSS", "Responsive Layout", "Offline-first Application", "SASS", "JavaScript", "Gulp", "Grunt"]
 	},
 	{
 		"title": "Memory Game",
@@ -21,7 +14,8 @@
 		"codeUrl": "https://github.com/ssaleem/Memory-Game",
 		"demoUrl": "https://ssaleem.github.io/Memory-Game/",
 		"medImage": "./img/mg-medium.jpg",
-		"smallImage": "./img/mg-small.jpg"
+		"smallImage": "./img/mg-small.jpg",
+		"tags": ["HTML/CSS", "Responsive Layout", "JavaScript", "Game"]
 	},
 	{
 		"title": "My Reads",
@@ -29,7 +23,17 @@
 		"codeUrl": "https://github.com/ssaleem/My-Reads",
 		"demoUrl": "https://ssaleem.github.io/My-Reads/",
 		"medImage": "./img/mr-medium.jpg",
-		"smallImage": "./img/mr-small.jpg"
+		"smallImage": "./img/mr-small.jpg",
+		"tags": ["HTML/CSS", "JavaScript", "React.JS", "Single Page Application", "AJAX", "Responsive Layout"]
+	},
+	{
+		"title": "Trending in Tampa Bay",
+		"description": "A single-page responsive Google Maps web application displaying top trending places at Foursquare in Tampa Bay area.",
+		"codeUrl": "https://github.com/ssaleem/Trending-in-Tampa-Bay",
+		"demoUrl": "https://ssaleem.github.io/Trending-in-Tampa-Bay/",
+		"medImage": "./img/titb-medium.jpg",
+		"smallImage": "./img/titb-medium.jpg",
+		"tags": ["HTML/CSS", "JavaScript", "React.JS", "SASS", "Single Page Application", "AJAX", "Responsive Layout"]
 	},
 	{
 		"title": "Frogger Game Clone",
@@ -37,7 +41,8 @@
 		"codeUrl": "https://github.com/ssaleem/Frogger-Clone",
 		"demoUrl": "https://ssaleem.github.io/Frogger-Clone",
 		"medImage": "./img/fc-medium.jpg",
-		"smallImage": "./img/fc-small.jpg"
+		"smallImage": "./img/fc-small.jpg",
+		"tags": ["HTML/CSS", "JavaScript", "Game", "Object-oriented Design", "Gulp"]
 	},
 	{
 		"title": "Random Quotes",
@@ -45,7 +50,17 @@
 		"codeUrl": "https://github.com/ssaleem/Random-Quotes",
 		"demoUrl": "https://ssaleem.github.io/Random-Quotes/",
 		"medImage": "./img/rqm-medium.jpg",
-		"smallImage": "./img/rqm-small.jpg"
+		"smallImage": "./img/rqm-small.jpg",
+		"tags": ["HTML/CSS", "Bootstrap","AJAX", "Responsive Layout", "JavaScript"]
+	},
+	{
+		"title": "Cat Clicker",
+		"description": "A web application implementing MVC design pattern with Vanilla JS (and of course with lots of cute cat images); cat images fetched from Unsplash API.",
+		"codeUrl": "https://github.com/ssaleem/Cat-Clicker",
+		"demoUrl": "https://ssaleem.github.io/Cat-Clicker/",
+		"medImage": "/img/cc-medium.jpg",
+		"smallImage": "./img/cc-small.jpg",
+		"tags": ["HTML/CSS", "JavaScript", "MVC", "AJAX", "Gulp"]
 	},
 	{
 		"title": "Raftaar",
@@ -53,7 +68,8 @@
 		"codeUrl": "https://github.com/ssaleem/Raftaar/tree/weather",
 		"demoUrl": "",
 		"medImage": "./img/rc-medium.jpg",
-		"smallImage": "./img/rc-small.jpg"
+		"smallImage": "./img/rc-small.jpg",
+		"tags": ["HTML/CSS", "Chrome Extension", "AJAX", "JavaScript"]
 	},
 	{
 		"title": "Feed Reader Testing using Jasmine",
@@ -61,7 +77,8 @@
 		"codeUrl": "https://github.com/ssaleem/Feed-Reader-Testing-using-Jasmine",
 		"demoUrl": "",
 		"medImage": "./img/j-medium.jpg",
-		"smallImage": "./img/j-small.jpg"
+		"smallImage": "./img/j-small.jpg",
+		"tags": ["HTML/CSS", "JavaScript", "Jasmine Unit Testing"]
 	},
 	{
 		"title": "Pixel Art Maker",
@@ -69,6 +86,7 @@
 		"codeUrl": "https://github.com/ssaleem/Pixel-Art-Maker",
 		"demoUrl": "https://ssaleem.github.io/Pixel-Art-Maker/",
 		"medImage": "./img/pam-medium.jpg",
-		"smallImage": "./img/pam-small.jpg"
+		"smallImage": "./img/pam-small.jpg",
+		"tags": ["jQuery"]
 	}
 ]
