@@ -1,0 +1,27 @@
+@import 'variables';
+
+footer {
+  padding: 0.5em 0;
+  font-size: 2em;
+  background-color: $primary-background-color;
+}
+
+footer p {
+  font-size: 0.35em;
+  text-align: center;
+  color: #85898C;
+  font-weight: bold;
+}
+
+footer a .social{
+  margin: 0.9em 0.3em;
+  color: $primary-font-color;
+}
+
+footer a .social:hover {
+  color: $highlight-color;
+}
+
+.react {
+  font-size: 1.5em;
+}

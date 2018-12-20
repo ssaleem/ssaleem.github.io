@@ -1,0 +1,92 @@
+@import 'breakpoints';
+@import 'variables';
+
+header {
+	width: $maxwidth-screen-sm-md-min;
+	text-align: center;
+	border-top: 2px solid $highlight-color;
+	padding: 0.8em;
+	@media only screen and (min-width: $screen-md-min) {
+		// margin-bottom: 2em;
+		padding: 1em 3em 0.5em;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		h1 {
+			width: 75%;
+			text-align: left;
+		}
+	}
+	@media only screen and (min-width: $screen-xl-min) {
+		padding: 0.5em calc((100% - #{$maxwidth-screen-xl-min}) / 2) 0.1em;
+	}
+
+	@media only screen and (min-width: $screen-xxl-min) {
+		padding: 0.5em calc((100% - #{$maxwidth-screen-xxl-min}) / 2) 0.1em;
+	}
+}
+
+// .sticky {
+// 	position: fixed;
+//   top: 0;
+//   left: 0;
+//   background-color: white;
+// }
+
+// .sticky + div {
+// 	padding-top: 6em;
+// }
+
+
+// .site-logo {
+//   width: 5%;
+//   height: auto;
+// }
+
+
+header h1 a {
+	color: inherit;
+	font-size: 1.2em;
+}
+
+nav .nav-link{
+	color: inherit;
+	padding: 2px 0.1em;
+	margin: 0 0.5em;
+	font-size: 1.1em;
+	// position: relative;
+	@media only screen and (min-width: $screen-lg-min) {
+		font-size: 1.3em;
+		width: calc((25% - 2em)/ 2);
+	}
+}
+
+// .nav-link:after {
+// 	position: absolute;
+//   left: 50%;
+// 	content: '';
+// 	height: 3px;
+//   background: $highlight-color;
+//   // transition: all 0.4s linear;
+//   width: 0;
+//   bottom: -2px;
+// }
+
+// .nav-link:hover:after {
+// 	transition: all 0.4s linear;
+//   width: 100%;
+//   margin-left: -50%;
+// }
+
+header h1 a:hover, nav .nav-link:hover {
+	color: $highlight-color;
+}
+
+.active-navlink {
+	color: $highlight-color;
+	border-bottom: 3px solid $highlight-color;
+}
+
+// .active-navlink:hover:after {
+//   width: 0;
+// }

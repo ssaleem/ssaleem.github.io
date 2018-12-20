@@ -1,0 +1,38 @@
+@import 'breakpoints';
+@import 'variables';
+
+.certificate-img {
+	max-height: 160px;
+	width: auto;
+	@media only screen and (min-width: $screen-md-min) {
+		max-height: 200px;
+	}
+	@media only screen and (min-width: $screen-lg-min) {
+		max-height: 250px;
+	}
+}
+
+.certificate-img:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.certificate p {
+	text-align: center;
+}
+
+.certificates-container {
+	@media only screen and (min-width: $screen-md-min) {
+		margin: 3em auto 4em;
+	}
+	@media only screen and (min-width: $screen-lg-min) {
+		width: 90%;
+		display: flex;
+		align-items: center;
+	}
+}
+
+.certificate {
+	@media only screen and (min-width: $screen-lg-min) {
+		width: 50%;
+	}
+}

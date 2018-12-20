@@ -1,0 +1,50 @@
+@import 'breakpoints';
+@import 'variables';
+
+.filterSkills {
+	padding: 1.5em 0;
+}
+
+.filterButton {
+  background-color: $primary-background-color;
+  color: $primary-font-color;
+  padding: 0.5em;
+  margin: 0.3em;
+  border: none;
+  border-radius: 0.3em;
+  font-size: 0.8em;
+  font-weight: bold;
+  @media only screen and (min-width: $screen-md-min) {
+    margin: 0.4em;
+    font-size: 1em;
+  }
+
+}
+
+.filterButton:hover {
+  background-color: $highlight-color;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(217,217,217,1);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(217,217,217,1);
+  box-shadow: 3px 4px 5px 0px rgba(217,217,217,1);
+}
+
+.selected {
+  background-color: $highlight-color;
+  color: white;
+  outline: none;
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(217,217,217,1);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(217,217,217,1);
+  box-shadow: 3px 4px 5px 0px rgba(217,217,217,1);
+}
+
+.selected-skill {
+	color: $lighter-primary-font-color;
+}
+
+.selected-skill > span{
+	font-weight: bolder;
+	color: $primary-font-color;
+}
