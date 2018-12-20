@@ -15,7 +15,7 @@
 		"demoUrl": "https://ssaleem.github.io/Memory-Game/",
 		"medImage": "./img/mg-medium.jpg",
 		"smallImage": "./img/mg-small.jpg",
-		"tags": ["HTML/CSS", "Responsive Layout", "JavaScript", "Game"]
+		"tags": ["HTML/CSS", "Responsive Layout", "JavaScript", "Browser-based Game"]
 	},
 	{
 		"title": "My Reads",
@@ -42,7 +42,7 @@
 		"demoUrl": "https://ssaleem.github.io/Frogger-Clone",
 		"medImage": "./img/fc-medium.jpg",
 		"smallImage": "./img/fc-small.jpg",
-		"tags": ["HTML/CSS", "JavaScript", "Game", "Object-oriented Design", "Gulp"]
+		"tags": ["HTML/CSS", "JavaScript", "Browser-based Game", "Object-oriented Design", "Gulp"]
 	},
 	{
 		"title": "Random Quotes",
