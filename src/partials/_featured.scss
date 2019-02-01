@@ -58,12 +58,16 @@
 
 .featured-link {
 	height: 2em;
-	border: 2px solid $lighter-primary-font-color;
+	border: none;
 	border-radius: 3px;
-	color: $lighter-primary-font-color;
-	background-color: white;
+	background-color: $primary-background-color;
+  	color: $primary-font-color;
+  	font-weight: bolder;
 	margin: 0 8px;
 	font-size: 0.9em;
+	-webkit-box-shadow: 3px 4px 5px 0px rgba(220, 225, 225, 1);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(220, 225, 225, 1);
+  box-shadow: 3px 4px 5px 0px rgba(220, 225, 225, 1);
 	@media only screen and (min-width: $screen-md-min) {
 		height: 2.8em;
 		width: 10%;

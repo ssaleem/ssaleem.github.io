@@ -4,6 +4,7 @@
 .certificate-img {
 	max-height: 160px;
 	width: auto;
+	transition: transform 0.4s;
 	@media only screen and (min-width: $screen-md-min) {
 		max-height: 200px;
 	}
@@ -14,6 +15,7 @@
 
 .certificate-img:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.1);
 }
 
 .certificate p {

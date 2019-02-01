@@ -8,15 +8,22 @@
 	display: flex;
 	flex-wrap: wrap;
 	@media only screen and (min-width: $screen-md-min) {
-		width: 94%;
+		width: 95%;
 		background-color: $primary-background-color;
-		padding: 0.5em;
-		margin: 2.5em auto 4.5em;
+		padding: 0.1em;
+		margin: 2.5em auto 5em;
 		border-radius: 4px;
 	}
 	@media only screen and (min-width: $screen-lg-min) {
 		width: 90%;
 		border-radius: 4px;
+	}
+	@media only screen and (min-width: $screen-xl-min) {
+		width: $maxwidth-screen-xl-min;
+		padding: 1em;
+	}
+	@media only screen and (min-width: $screen-xxl-min) {
+		width: $maxwidth-screen-xxl-min;
 	}
 }
 
@@ -30,8 +37,8 @@
 	width: 100%;
 	background-color: white;
 	@media only screen and (min-width: $screen-md-min) {
-		margin: 4px;
-		width: calc((100% - 24px) / 3);
+		margin: 0.05em;
+		width: calc((100% - 0.3em) / 3);
 		border: none;
 	}
 	@media only screen and (min-width: $screen-xl-min) {
