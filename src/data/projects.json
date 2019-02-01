@@ -37,7 +37,7 @@
 	},
 	{
 		"title": "Frogger Game Clone",
-		"description": "An HTML5 Canvas powered variation of the classNameic Frogger arcade game, developed using the best practices in Object Oriented JavaScript.",
+		"description": "An HTML5 Canvas powered variation of the classic Frogger arcade game, developed using the best practices in Object Oriented JavaScript.",
 		"codeUrl": "https://github.com/ssaleem/Frogger-Clone",
 		"demoUrl": "https://ssaleem.github.io/Frogger-Clone",
 		"medImage": "./img/fc-medium.jpg",
@@ -46,7 +46,7 @@
 	},
 	{
 		"title": "Random Quotes",
-		"description": "A responsive website displaying random quotes extracted from wikiquote.org; a tweet buttong allows the users to post their favorite quotes.",
+		"description": "A responsive website displaying random quotes extracted from wikiquote.org; a tweet button allows the users to post their favorite quotes.",
 		"codeUrl": "https://github.com/ssaleem/Random-Quotes",
 		"demoUrl": "https://ssaleem.github.io/Random-Quotes/",
 		"medImage": "./img/rqm-medium.jpg",
