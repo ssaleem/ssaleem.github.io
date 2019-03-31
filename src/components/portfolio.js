@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faLaptopCode)
 
 class Portfolio extends Component {
 	constructor(props){
@@ -26,7 +24,7 @@ class Portfolio extends Component {
 			<div className="portfolio">
 			<main>
 			<h1>FRONT END WORK</h1>
-			<FontAwesomeIcon icon={["fas","laptop-code"]} className="section-logo"/>
+			<FontAwesomeIcon icon={faLaptopCode} className="section-logo"/>
 			<div className="filterSkills">
 			{this.allSkills.map((skill, index) =>
 				<button className={`filterButton ${this.state.selection === index && 'selected'}`} key={index} onClick={() => this.handleSelect(index) }>{skill}</button>)}

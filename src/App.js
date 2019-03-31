@@ -13,7 +13,8 @@ import { faGithub, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icon
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import './App.scss';
 
-library.add(faLinkedin, faGithub, faReact, faEnvelope)
+
+library.add(faGithub, faReact)
 ReactGA.initialize('UA-129370123-5');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -59,10 +60,11 @@ class App extends Component {
         <Route exact path="/" component={Skills}/>
         <Route exact path="/" component={Certificates}/>
         </main>
+
         <footer>
           <a href="https://github.com/ssaleem" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "github"]}/></a>
-          <a href="https://www.linkedin.com/in/saraasaleem/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon className="social" icon={["fab", "linkedin"]}/></a>
-          <a href="mailto:sara@sarasaleem.com" rel="noopener noreferrer"><FontAwesomeIcon className="social" icon={["fas", "envelope"]}/></a>
+          <a href="https://www.linkedin.com/in/saraasaleem/" rel="noopener noreferrer" target="_blank"><FontAwesomeIcon className="social" icon={faLinkedin}/></a>
+          <a href="mailto:sara@sarasaleem.com" rel="noopener noreferrer"><FontAwesomeIcon className="social" icon={faEnvelope}/></a>
           <p>&copy; 2018 SARA SALEEM. ALL RIGHTS RESERVED</p>
           <p>Made with <FontAwesomeIcon className="react" icon={["fab", "react"]}/> React.js</p>
         </footer>

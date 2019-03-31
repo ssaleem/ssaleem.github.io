@@ -1,16 +1,14 @@
 import React, {Component} from 'react';
-import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCertificate } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faCertificate)
 
 class Certificates extends Component{
 	render(){
 		return(
 			<div>
 			<h1>CERTIFICATIONS</h1>
-			<FontAwesomeIcon icon={["fas","certificate"]} className="section-logo"/>
+			<FontAwesomeIcon icon={faCertificate} className="section-logo"/>
 			<div className="certificates-container">
 			<div className="certificate">
 				<a href="https://confirm.udacity.com/K4XCVCLN" rel="noopener noreferrer" target="_blank">
