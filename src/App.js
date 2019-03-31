@@ -4,9 +4,10 @@ import ReactGA from 'react-ga';
 import { NavLink } from 'react-router-dom';
 import About from './components/about';
 import Skills from './components/skills';
-import Certificates from './components/certificates.js';
+import Certificates from './components/certificates';
 import Featured from './components/featured';
-import Portfolio from './components/portfolio.js';
+import Portfolio from './components/portfolio';
+import Contact from './components/contact'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faReact } from '@fortawesome/free-brands-svg-icons'
@@ -23,16 +24,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <div className="landing-page">
         <header className="sticky">
             {/*<img src="./img/siteLogo.png" className="site-logo" alt="site logo"/>*/}
             <h1><a href="https://sarasaleem.com/">SARA SALEEM</a></h1>
             <nav>
               <NavLink className="nav-link" activeClassName="active-navlink" exact to='/'>Home</NavLink>
               <NavLink className="nav-link" activeClassName="active-navlink" to='/portfolio'>Projects</NavLink>
+              <NavLink className="nav-link" activeClassName="active-navlink" to='/contact'>Contact</NavLink>
             </nav>
+             <hr className="fancy-line"></hr>
         </header>
-        <hr className="fancy-line"></hr>
 
         <Route exact path="/" component={About}/>
         <Route exact path="/" component={Featured}/>
