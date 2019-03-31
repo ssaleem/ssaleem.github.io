@@ -19,19 +19,6 @@ ReactGA.initialize('UA-129370123-5');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 class App extends Component {
-  state = {
-    projects: []
-  }
-
-  componentDidMount() {
-    // fetch projects json file
-    fetch(`${process.env.PUBLIC_URL}/data/projects.json`)
-    // fetch("https://sarasaleem.com/data/projects.json")
-    .then(blob => blob.json())
-    .then((response) =>
-      this.setState({projects: response})
-    );
-  }
 
   render() {
     return (
@@ -48,14 +35,11 @@ class App extends Component {
         <hr className="fancy-line"></hr>
 
         <Route exact path="/" component={About}/>
+        <Route exact path="/" component={Featured}/>
 
-        <Route path="/portfolio" render={() => (
-            <Portfolio projects={this.state.projects}/>
-          )}/>
-        </div>
-        <Route exact path="/" render={() => (
-            <Featured/>
-          )}/>
+        <Route path="/portfolio" component={Portfolio}/>
+        <Route path="/contact" component={Contact}/>
+
         <main>
         <Route exact path="/" component={Skills}/>
         <Route exact path="/" component={Certificates}/>

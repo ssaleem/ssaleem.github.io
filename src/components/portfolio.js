@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import projects from '../data/projects.json';
 
 
 class Portfolio extends Component {
@@ -32,7 +33,7 @@ class Portfolio extends Component {
 			{this.state.selection === 0 ? <p className="selected-skill">Showing <span>all</span> projects. Click a skill or technology to filter</p> :
 			<p className="selected-skill">Showing projects filtered by <span>{this.allSkills[this.state.selection]}</span>.</p>}
 			<div className="container">
-			{this.props.projects.map((project) => ( project.tags.includes(this.allSkills[this.state.selection]) && (
+			{projects.map((project) => ( project.tags.includes(this.allSkills[this.state.selection]) && (
 				<div className="flex-project" key={project.title}>
 				<a href={project.demoUrl} rel="noopener noreferrer" target="_blank">
 				<picture>
